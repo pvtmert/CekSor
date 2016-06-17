@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mert/projects/java/CekSor/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/mert/projects/java/CekSor/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_f13c10a758d82a43b59d7598eba267b83e98e79b.jar" />
+    </item>
+    <item
+        jar="/Users/mert/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/mert/projects/java/CekSor/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_63d8dc457608c878ae8098e23fdc1c39984b9780.jar" />
+    </item>
+    <item
+        jar="/Users/mert/projects/java/CekSor/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/Users/mert/projects/java/CekSor/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_fea6f227f6b6fb068ae93bd068cffec8ef20f8d0.jar" />
+    </item>
+    <item
+        jar="/Users/mert/projects/java/CekSor/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/mert/projects/java/CekSor/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_543038a64616416944a936d7eb255c97cec195b6.jar" />
+    </item>
+    <item
+        jar="/Users/mert/projects/java/CekSor/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/mert/projects/java/CekSor/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_9608ae2aee24c46c45dc1c8e996230b47d356edb.jar" />
+    </item>
+    <item
+        jar="/Users/mert/projects/java/CekSor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/mert/projects/java/CekSor/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_c4171825e993027d1c16e51ca33f6f1d8f4bd438.jar" />
+    </item>
+    <item
+        jar="/Users/mert/projects/java/CekSor/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/mert/projects/java/CekSor/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_5b690162a84c7f1be656e40579a16ad7e5dd8a72.jar" />
+    </item>
+    <item
+        jar="/Users/mert/projects/java/CekSor/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/mert/projects/java/CekSor/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_4e63eb7e32380a2f15088635b7b4bf4c0399641f.jar" />
+    </item>
+
+</items>
