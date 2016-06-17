@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  tools:showIn="@layout/activity_calc"
+  tools:context="net.ceksor.CalcAct">
+
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:id="@+id/scrollView" android:layout_centerVertical="true" android:layout_centerHorizontal="true">
+		<LinearLayout
+		  android:orientation="vertical"
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  android:focusableInTouchMode="true">
+			<EditText
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:inputType="numberDecimal"
+			  android:ems="10"
+			  android:id="@+id/editText1" android:layout_margin="25dp" android:hint="Çek Tutarı:"
+			  android:textSize="@dimen/abc_text_size_headline_material" android:textAlignment="center"/>
+			<EditText
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:inputType="numberDecimal"
+			  android:ems="10"
+			  android:id="@+id/editText2" android:layout_margin="25dp" android:hint="Faiz (%):"
+			  android:textSize="@dimen/abc_text_size_headline_material" android:textAlignment="center"/>
+			<EditText
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:inputType="numberDecimal"
+			  android:ems="10"
+			  android:id="@+id/editText3" android:layout_margin="25dp" android:hint="Provizyon:"
+			  android:textSize="@dimen/abc_text_size_headline_material" android:textAlignment="center"/>
+			<EditText
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:inputType="numberDecimal"
+			  android:ems="10"
+			  android:id="@+id/editText4" android:layout_margin="25dp" android:hint="Komisyon (%):"
+			  android:textSize="@dimen/abc_text_size_headline_material" android:textAlignment="center"/>
+			<RadioGroup
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="horizontal"
+			  android:layout_margin="20dp"
+			  android:layout_gravity="center"
+			  android:gravity="center">
+				<TextView
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:textAppearance="?android:attr/textAppearanceMedium"
+				  android:text="Valör:"
+				  android:id="@+id/textView" android:layout_marginRight="10dp"
+				  android:layout_gravity="center" android:textSize="@dimen/abc_text_size_headline_material"
+				  android:textAlignment="center"/>
+				<RadioButton
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:text="0"
+				  android:id="@+id/radioButton0" android:layout_gravity="center"
+				  android:textSize="@dimen/abc_text_size_headline_material" android:layout_margin="5dp"
+				  android:textAlignment="center"/>
+				<RadioButton
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:text="1"
+				  android:id="@+id/radioButton1" android:layout_gravity="center"
+				  android:textSize="@dimen/abc_text_size_headline_material" android:layout_margin="5dp"
+				  android:textAlignment="center"/>
+				<RadioButton
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:text="2"
+				  android:id="@+id/radioButton2" android:layout_gravity="center"
+				  android:textSize="@dimen/abc_text_size_headline_material" android:layout_margin="5dp"
+				  android:textAlignment="center"/>
+				<RadioButton
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:text="3"
+				  android:id="@+id/radioButton3" android:layout_gravity="center"
+				  android:textSize="@dimen/abc_text_size_headline_material" android:layout_margin="5dp"
+				  android:textAlignment="center"/>
+			</RadioGroup>
+			<DatePicker
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:id="@+id/datePicker"
+			  android:datePickerMode="spinner"
+			  android:layout_gravity="center"
+			  android:spinnersShown="true"
+			  android:calendarViewShown="false"
+			  android:textAlignment="center"/>
+			<Space
+			  android:layout_width="20px"
+			  android:layout_height="72dp"
+			/>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

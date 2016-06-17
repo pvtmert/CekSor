@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">Çek Sor</string>
+	<string name="action_settings">Yardım</string>
+	<string name="title_activity_calc_tutor">ÇekSor | Hoşgeldiniz</string>
+	<string name="section_format">örnek sayfa %1$d</string>
+	<string name="title_activity_test">TestAct</string>
+
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

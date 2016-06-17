@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="net.ceksor.CalcTutor$PlaceholderFragment"
+                android:background="@android:color/holo_blue_dark" android:backgroundTint="@android:color/darker_gray"
+                android:backgroundTintMode="multiply">
+
+	<TextView
+	  android:id="@+id/section_label"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content" android:textSize="@dimen/abc_text_size_headline_material"
+	  android:textAlignment="center" android:text="ÇekSor&apos;a Hoşgeldiniz..."
+	  android:textColor="@android:color/primary_text_dark" android:layout_margin="25dp"/>
+	<FrameLayout
+	  android:id="@+id/frame"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content" android:layout_below="@+id/section_label"
+	  android:layout_above="@+id/textView" android:outlineProvider="paddedBounds" android:layoutMode="clipBounds"
+	  android:layout_centerInParent="true">
+		<ImageView
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:id="@+id/imageView"
+		  android:src="@android:drawable/sym_def_app_icon" android:background="@android:color/background_light"
+		  android:scaleType="fitCenter"
+		  android:adjustViewBounds="true" android:cropToPadding="true"
+		  android:outlineProvider="bounds" android:layout_gravity="top|left|bottom|center|right"/>
+	</FrameLayout>
+	<TextView
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:textAppearance="?android:attr/textAppearanceMedium"
+	  android:text="ileri kaydırın &gt;&gt;"
+	  android:id="@+id/textView"
+	  android:textAlignment="center"
+	  android:visibility="visible"
+	  android:textColor="@android:color/primary_text_dark"
+	  android:padding="15dp"
+	  android:gravity="bottom" android:layout_centerInParent="true" android:layout_alignParentBottom="true"
+	  android:layout_marginBottom="48dp"/>
+
+</RelativeLayout>
